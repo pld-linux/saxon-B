@@ -3,13 +3,13 @@
 
 Summary:	XSLT Processor in Java
 Summary(pl):	Procesor XSLT napisany w Javie
-Name:		saxon
+Name:		saxon-B
 Version:	%{ver}
 Release:	1
 Vendor:		Michael Kay
 License:	unknown
 Group:		Applications/Publishing/XML
-Source0:	http://dl.sourceforge.net/saxon/%{name}b%{_ver}.zip
+Source0:	http://dl.sourceforge.net/saxon/saxonb%{_ver}.zip
 # Source0-md5:	d2a6ebbfd097e4cd158bb2e23b138fd7
 URL:		http://saxon.sourceforge.net/
 BuildRequires:	unzip
@@ -36,7 +36,7 @@ chmod -R a+rX *
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_javalibdir}
 
-install %{name}*.jar $RPM_BUILD_ROOT%{_javalibdir}
+install saxon*.jar $RPM_BUILD_ROOT%{_javalibdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
