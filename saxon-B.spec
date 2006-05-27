@@ -1,5 +1,5 @@
-%define		ver		8.5.1
-%define		_ver		8-5-1
+%define		ver		8.7.1
+%define		_ver		8-7-1j
 
 Summary:	XSLT Processor in Java
 Summary(pl):	Procesor XSLT napisany w Javie
@@ -9,8 +9,8 @@ Release:	1
 Vendor:		Michael Kay
 License:	unknown
 Group:		Applications/Publishing/XML
-Source0:	http://dl.sourceforge.net/saxon/saxonb%{_ver}.zip
-# Source0-md5:	d2a6ebbfd097e4cd158bb2e23b138fd7
+Source0:	http://mesh.dl.sourceforge.net/saxon/saxonb%{_ver}.zip
+# Source0-md5:	542bc57fc5dfd9b5c090d5db7bc6f3d6
 URL:		http://saxon.sourceforge.net/
 BuildRequires:	unzip
 Requires:	jre
