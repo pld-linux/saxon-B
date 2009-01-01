@@ -1,5 +1,5 @@
-%define		ver		8.7.1
-%define		_ver		8-7-1j
+%define		ver		9.1.0.5
+%define		_ver		9-1-0-5j
 
 Summary:	XSLT Processor in Java
 Summary(pl.UTF-8):	Procesor XSLT napisany w Javie
@@ -7,10 +7,10 @@ Name:		saxon-B
 Version:	%{ver}
 Release:	1
 Vendor:		Michael Kay
-License:	unknown
+License:	MPL 1.0
 Group:		Applications/Publishing/XML
 Source0:	http://mesh.dl.sourceforge.net/saxon/saxonb%{_ver}.zip
-# Source0-md5:	542bc57fc5dfd9b5c090d5db7bc6f3d6
+# Source0-md5:	898f4aa68a1c0a8c1bd5f9f723272443
 URL:		http://saxon.sourceforge.net/
 BuildRequires:	unzip
 Requires:	jre
