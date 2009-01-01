@@ -6,16 +6,15 @@ Summary(pl.UTF-8):	Procesor XSLT napisany w Javie
 Name:		saxon-B
 Version:	%{ver}
 Release:	1
-Vendor:		Michael Kay
 License:	MPL 1.0
 Group:		Applications/Publishing/XML
-Source0:	http://mesh.dl.sourceforge.net/saxon/saxonb%{_ver}.zip
+Source0:	http://dl.sourceforge.net/saxon/saxonb%{_ver}.zip
 # Source0-md5:	898f4aa68a1c0a8c1bd5f9f723272443
 URL:		http://saxon.sourceforge.net/
 BuildRequires:	unzip
+Requires:	jaxp_parser_impl
 Requires:	jre
 Requires:	xml-commons
-Requires:	jaxp_parser_impl
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
